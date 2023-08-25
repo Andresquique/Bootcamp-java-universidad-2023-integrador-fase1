@@ -1,0 +1,251 @@
+:root{
+    font-size: 16px;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    --orange:#BA431A;
+    --light_orange:#F08F6D;
+    --grey:#AEA79F;
+
+}
+/*nav*/
+body{
+    font-family: 'Signika Negative', sans-serif !important;
+}
+#menu {
+    background:var(--light_orange);
+    background: radial-gradient(circle, var(--light_orange) 0%, rgba(250,250,250,0.41220238095238093) 100%);
+   
+}   
+#logo {
+    width: 50px;
+}
+
+.nav-link:hover{
+    text-decoration: underline;
+
+}
+.nav-link{
+    font-size: 1.2rem;
+}
+
+/*form*/
+.contact{
+    padding: 4%;
+    height: 400px;
+}
+#mail{
+    background: var(--light_orange);
+    padding: 4%;
+    border-top-left-radius: 0.5rem;
+    border-bottom-left-radius: 0.5rem;
+}
+.contact-info{
+    margin-top:10%;
+
+}
+.contact-info img{
+    margin-bottom: 15%;
+}
+.contact-info h2{
+    margin-bottom: 10%;
+}
+.col-md-9{
+    background: #fff;
+    padding: 3%;
+    border-top-right-radius: 0.5rem;
+    border-bottom-right-radius: 0.5rem;
+}
+.contact-form label{
+    font-weight:600;
+}
+.contact-form button{
+    background:var(--light_orange);
+    color: #fff;
+    font-weight: 600;
+    width: 25%;
+
+}
+.contact-form button:focus{
+    box-shadow:none;
+}
+input:focus , textarea:focus{
+    border: none;
+  border-bottom: 2px solid var(--light_orange) !important;
+  border-top: 2px solid var(--light_orange) !important;
+  background-color:var(--grey)!important; 
+}
+#contactInfo{
+    background-color: var(--grey);
+    font-weight: 400;
+    border-radius: 10px;
+}
+footer{
+    animation: bottom_entrance 3s ease 0s 1 normal forwards;
+}
+footer h2{
+    font-size: 1.6rem;
+    font-weight: 600;
+}
+
+.form-group{
+    text-align: start;
+}
+@keyframes bottom_entrance {
+	0% {
+		opacity: 0;
+		transform: translateY(200px);
+	}
+
+	100% {
+		opacity: 1;
+		transform: translateY(0);
+	}
+}
+
+/*section/articles*/
+
+
+#imagen{
+    background-image: url(/Proyecto/assets/proyecto_sm.png);
+    height: 400px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    animation: fadeIn 1s ease 0s 1 normal forwards;
+}
+#articleProyecto h3{
+    font-size: 2.5rem;
+    background-color: var(--orange) ;
+    color:white;
+    border-radius: 10px;
+    text-align: center;
+}
+#articleProyecto {
+    animation: deslizar 1s linear 0s 1 normal forwards;
+}
+#imagenGrid h4 {
+    background-color: var(--blue);
+    font-size: 1rem;
+    color: white;
+    text-align: center;
+}
+#rowtext{
+    font-size: 1.6rem;
+    animation: deslizar 1s linear 0s 1 normal forwards;
+}
+#obj_cont{
+    background:var(--grey);
+    border-radius: 10px;
+}
+#obj_cont h2{
+font-weight: 600;
+}
+
+#imagenGrid{
+    animation: enter 1s ease 0s 1 normal forwards;
+    box-shadow: -1px 1px 21px -2px rgba(0,0,0,1);
+}
+#imagenGrid:hover{
+    width: 300px;
+    cursor: zoom-in;
+}
+.back_orange {
+    background-color: var(--light_orange) ;
+    color:white;
+    border-radius: 0px 0px 10px 10px;
+    box-shadow: 0px 6px 5px -2px rgba(0,0,0,0.75);
+
+
+}
+#tresEjes h4{
+    font-size: 0.9rem;
+    background-color: var(--orange) ;
+}
+/*animaciones*/
+@keyframes deslizar {
+	0% {
+		animation-timing-function: ease-in;
+		opacity: 0;
+		transform: translateX(500px);
+	}
+
+	38% {
+		animation-timing-function: ease-out;
+		opacity: 1;
+		transform: translateX(0);
+	}
+
+	55% {
+		animation-timing-function: ease-in;
+		transform: translateX(200px);
+	}
+
+	72% {
+		animation-timing-function: ease-out;
+		transform: translateX(0);
+	}
+
+	81% {
+		animation-timing-function: ease-in;
+		transform: translateX(50px);
+	}
+
+	90% {
+		animation-timing-function: ease-out;
+		transform: translateX(0);
+	}
+
+	95% {
+		animation-timing-function: ease-in;
+		transform: translateX(8px);
+	}
+
+	100% {
+		animation-timing-function: ease-out;
+		transform: translateX(0);
+	}
+}
+@keyframes enter {
+	0% {
+		opacity: 0;
+		transform: translateY(500px);
+	}
+
+	100% {
+		opacity: 1;
+		transform: translateY(0);
+	}
+}
+@keyframes fadeIn {
+	0% {
+		opacity: 0;
+		transform: translateY(0);
+	}
+
+	100% {
+		opacity: 1;
+		transform: translateY(0);
+	}
+}
+/*responsive min-width:768px*/
+
+@media screen and (min-width:768px) {
+
+    #imagen {
+        background-image: url(/Proyecto/assets/proyecto_md.png);
+    }    
+
+
+}
+
+/*responsive min-width:992px*/
+
+@media screen and (min-width:992px) {
+
+    #imagen {
+        background-image: url(/Proyecto/assets/proyecto_lg.jpg);
+    }
+
+}
+

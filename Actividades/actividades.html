@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Signika+Negative:wght@400;600&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/181725805d.js" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <title>Actividades</title>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <!--css-->
+    <link rel="stylesheet" href="./css/actividades.css">
+</head>
+<body>
+    <!--nav-->
+    <header>
+        <nav class="navbar navbar-expand-lg ">
+            <div class="container-fluid" id="menu">
+                <a href="/index.html"> 
+                    <img id="logo" class="navbar-brand gc-navbar-brand"
+                    src="/assets/logoGC.png" 
+                    alt="ProyectoGC"/>
+                </a>
+                <a href="#" class=" me-auto "><i class="fa fa-instagram fa-3x text-black-50"></i></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarColor02" aria-controls="navbarColor02" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarColor02">
+                    <ul class="navbar-nav ">
+                    <li class="nav-item">
+                        <a class="nav-link" href="/Quienes_somos/quienes_somos.html">QUIENES SOMOS
+                        <span class="visually-hidden">(current)</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/Proyecto/proyecto.html">PROYECTO</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../Actividades/actividades.html">ACTIVIDADES</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./">COLABORAR</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/Inscripciones/Inscripciones.html">INSCRIPCIONES</a>
+                    </li>               
+                    </ul>
+                </div>
+            </div>
+        </nav>   
+    </header>
+    <main>
+       <!--imagen-->
+    <section class="row">
+        <div id="imagen" class="container d-flex col-12">
+        </div>
+    </section>
+    <!--parrafo1-->
+    <article class="d-grid mt-5 mb-3 ">
+        <div class="row justify-content-center ">
+            <div class="logoArticle d-grid col col-10  justify-content-center align-items-center">
+              <img src="/assets/gc.png" width="100" alt="logo">
+            </div>
+            <div class="col col-10 col-md-8 text-center" id="actividades">
+              <h3>
+                Actividad
+              </h3>
+              <h3 id="pedagogica" class="p-2 d-inline-block" >
+                pedagógica
+              </h3>
+              <p class="mt-4">
+                Creemos que la educación es el medio para que cada persona alcance su máximo potencial. Por eso en GC trabajamos para ayudar a que cada niño, niña y adolescente pueda adquirir herramientas para lograr la alfabetización y comprensión lectora en el área de lengua y el razonamiento a través de las matemáticas. Buscamos lograr estos objetivos a través de materiales didácticos diseñados pedagógicamente con estándares de calidad. Además aprenden lenguaje de señas Argentina como un nuevo idioma, buscando la estimulación de la creatividad, la expresión y la inclusión. 
+              </p>
+          </div>
+        </div>
+    </article>
+     <!--carrousel-->
+    <article id="carrousel" class="container d-grid ms-5 ">       
+        <div class="carousel mt-5">
+          <ul class="slides">
+            <input type="radio" name="radio-buttons" id="img-1" checked />
+            <li class="slide-container">
+              <div class="slide-image">
+                <img src="/Actividades/assets/carrousel/aprendiendo-sm.jpg">
+              </div>
+              <div class="carousel-controls">
+                <label for="img-7" class="prev-slide">
+                  <span>&lsaquo;</span>
+                </label>
+                <label for="img-2" class="next-slide">
+                  <span>&rsaquo;</span>
+                </label>
+              </div>
+            </li>
+            <input type="radio" name="radio-buttons" id="img-2" />
+            <li class="slide-container">
+              <div class="slide-image">
+                <img src="/Actividades/assets/carrousel/jugando-1-md.jpg">
+              </div>
+              <div class="carousel-controls">
+                <label for="img-1" class="prev-slide">
+                  <span>&lsaquo;</span>
+                </label>
+                <label for="img-3" class="next-slide">
+                  <span>&rsaquo;</span>
+                </label>
+              </div>
+            </li>
+            <input type="radio" name="radio-buttons" id="img-3" />
+            <li class="slide-container">
+              <div class="slide-image">
+                <img src="/Actividades/assets/carrousel/jugando-sm.jpg">
+              </div>
+              <div class="carousel-controls">
+                <label for="img-2" class="prev-slide">
+                  <span>&lsaquo;</span>
+                </label>
+                <label for="img-4" class="next-slide">
+                  <span>&rsaquo;</span>
+                </label>
+              </div>
+            </li>
+            <input type="radio" name="radio-buttons" id="img-4"  />
+            <li class="slide-container">
+              <div class="slide-image">
+                <img src="/Actividades/assets/carrousel/recreacion-0-md.jpg">
+              </div>
+              <div class="carousel-controls">
+                <label for="img-3" class="prev-slide">
+                  <span>&lsaquo;</span>
+                </label>
+                <label for="img-5" class="next-slide">
+                  <span>&rsaquo;</span>
+                </label>
+              </div>
+            </li>
+            <input type="radio" name="radio-buttons" id="img-5"  />
+            <li class="slide-container">
+              <div class="slide-image">
+                <img src="/Actividades/assets/carrousel/senias-0-md.jpg">
+              </div>
+              <div class="carousel-controls">
+                <label for="img-4" class="prev-slide">
+                  <span>&lsaquo;</span>
+                </label>
+                <label for="img-6" class="next-slide">
+                  <span>&rsaquo;</span>
+                </label>
+              </div>
+            </li>
+            <input type="radio" name="radio-buttons" id="img-6" />
+            <li class="slide-container">
+              <div class="slide-image">
+                <img src="/Actividades/assets/carrousel/senias-1-md.jpg">
+              </div>
+              <div class="carousel-controls">
+                <label for="img-5" class="prev-slide">
+                  <span>&lsaquo;</span>
+                </label>
+                <label for="img-7" class="next-slide">
+                  <span>&rsaquo;</span>
+                </label>
+              </div>
+            </li>
+            <input type="radio" name="radio-buttons" id="img-7"  />
+            <li class="slide-container">
+              <div class="slide-image">
+                <img src="/Actividades/assets/carrousel/senias-2-md.jpg">
+              </div>
+              <div class="carousel-controls">
+                <label for="img-6" class="prev-slide">
+                  <span>&lsaquo;</span>
+                </label>
+                <label for="img-1" class="next-slide">
+                  <span>&rsaquo;</span>
+                </label>
+              </div>
+            </li> 
+            <div class="carousel-dots">
+              <label for="img-1" class="carousel-dot" id="img-dot-1"></label>
+              <label for="img-2" class="carousel-dot" id="img-dot-2"></label>
+              <label for="img-3" class="carousel-dot" id="img-dot-3"></label>
+              <label for="img-4" class="carousel-dot" id="img-dot-4"></label>
+              <label for="img-5" class="carousel-dot" id="img-dot-5"></label>
+              <label for="img-6" class="carousel-dot" id="img-dot-6"></label>
+              <label for="img-7" class="carousel-dot" id="img-dot-7"></label>
+            </div>           
+          </ul>
+          
+        </div>
+    </article>
+       <!--parrafo2-->
+    <article class="d-grid mt-5">
+      <div class="row justify-content-center ">
+          <div class=" logoArticle d-grid col col-10 justify-content-center align-items-center">
+            <img src="/assets/gc.png" width="100" alt="logo">
+          </div>
+          <div class="col col-10 col-md-8 text-center" id="deportes">
+            <h3>
+              Deporte y
+            </h3>
+            <h3 id="recreacion" class="p-2 d-inline-block" >
+              Recreación
+            </h3>
+            <p class="mt-4">
+              El deporte es una de las mejores escuelas de vida y tienen el poder de transformar conductas negativas en positivas. Es el medio por el cual podemos estimular, enseñar y entrenar valores tales como la lealtad y la cooperación, logrando objetivos en equipo y a la vez desarrollando la creatividad, la organización, la responsabilidad y la sana competencia. Por eso en GC cada día practicamos 40 minutos al deporte y la recreación.
+            </p>
+        </div>
+      </div>
+  </article>
+</main>
+     <!--form-->
+     <footer>   
+      <form action="">
+          <div class="container contact">
+              <div class="row">
+                  <div class="col-md-3">
+                      <div class="contact-info  text-center text-md-start">
+                          <img src="https://image.ibb.co/kUASdV/contact-image.png" alt="image"/>
+                          <h2>Contactanos</h2>
+                          <h4>Nos encantaría saber sobre vos!</h4>
+                      </div>
+                  </div>
+                  <div class="col-md-9">
+                      <div class="contact-form">
+                          <div class="form-group">
+                            <label class="control-label col-sm-2" for="fname">Nombre</label>
+                            <div class="col-sm-10">          
+                              <input type="text" class="form-control" id="fname" placeholder="Ingrese su nombre" name="fname">
+                            </div>
+                          </div>
+                          <div class="form-group">
+                            <label class="control-label col-sm-2" for="lname">Apellido</label>
+                            <div class="col-sm-10">          
+                              <input type="text" class="form-control" id="lname" placeholder="Ingrese su apellido" name="lname">
+                            </div>
+                          </div>
+                          <div class="form-group">
+                            <label class="control-label col-sm-2" for="email">Email:</label>
+                            <div class="col-sm-10">
+                              <input type="email" class="form-control" id="email" placeholder="usuario@mail.com" name="email">
+                            </div>
+                          </div>
+                          <div class="form-group">
+                            <label class="control-label col-sm-2" for="comment">Comentarios</label>
+                            <div class="col-sm-10">
+                              <textarea class="form-control" rows="5" id="comment"></textarea>
+                            </div>
+                          </div>
+                          <div class="form-group">        
+                            <div class="col-sm-offset-2 col-sm-10">
+                              <button type="submit" class="btn btn-default mt-3">Enviar</button>
+                            </div>
+                          </div>
+                      </div>
+                  </div>
+                  <div class="container-fluid mt-3" id="contactInfo">
+                      <div class="row justify-content-center">
+                          <div class="col-md-7 col-11 gc-footer-info text-center">
+                              <ul id="contacto" class="list-unstyled text-center p-md-2">
+                                  <li>
+                                  Manzoni 1360, 
+                                  </li>
+                                  <li>
+                                  Gonzalez Catán,
+                                  </li>
+                                  <li>
+                                  Provincia de Buenos Aires
+                                  </li>
+                                  <li>
+                                  Tel. (54)5277 0815
+                                  </li>
+                                  <li>
+                                  info@proyectogc.org
+                                  </li>
+                                  <img class="bg-white m-2" src="/assets/logoGC_slogan.webp">
+                              </ul>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </form>
+  </footer> 
+</body>
+</html>
