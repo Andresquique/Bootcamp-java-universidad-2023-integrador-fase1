@@ -110,7 +110,7 @@ footer h2{
     opacity: 0.5;
 }
 #imagen{
-    background-image: url(/Index/assets/home-sm.jpg);
+    background-image: url(./Index/assets/home-sm.jpg);
     height: 400px;
     background-repeat: no-repeat;
     background-size: cover;
@@ -188,7 +188,7 @@ footer h2{
 @media screen and (min-width:768px) {
 
     #imagen {
-        background-image: url(/Index/assets/home-md.jpg);
+        background-image: url(./Index/assets/home-md.jpg);
     }    
 }
 
@@ -197,6 +197,6 @@ footer h2{
 @media screen and (min-width:992px) {
 
     #imagen {
-        background-image: url(/Index/assets/home-lg.jpg);
+        background-image: url(./Index/assets/home-lg.jpg);
     }
 }

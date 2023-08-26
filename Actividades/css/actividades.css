@@ -112,7 +112,7 @@ footer h2{
   opacity: 0.5;
 }
 #imagen{
-    background-image: url(/Actividades/assets/actividades_sm.png);
+    background-image: url(./Actividades/assets/actividades_sm.png);
     height: 400px;
     background-repeat: no-repeat;
     background-size: cover;
@@ -350,7 +350,7 @@ input:checked + .slide-container .nav label { display: block;}
 @media screen and (min-width:768px) {
 
     #imagen {
-        background-image: url(/Actividades/assets/actividades_md.png);
+        background-image: url(./Actividades/assets/actividades_md.png);
     }    
 
 }
@@ -360,7 +360,7 @@ input:checked + .slide-container .nav label { display: block;}
 @media screen and (min-width:992px) {
 
     #imagen {
-        background-image: url(/Actividades/assets/actividades_lg.jpg);
+        background-image: url(./Actividades/assets/actividades_lg.jpg);
     }
 
 }

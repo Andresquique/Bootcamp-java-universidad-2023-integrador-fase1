@@ -16,6 +16,9 @@
     <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
     <!--css-->
     <link rel="stylesheet" href="./css/Inscripciones.css">
+     <!--js-->
+     <script src="/js/"></script>
+     <script src="./js/inscripciones.js"></script>
 </head>
 <body>
     <!--nav-->
@@ -194,13 +197,13 @@
                                 <div class="tab-featured-image">
                                     <div class="tab-content">
                                         <div class="tab-pane  in active" id="tab1">
-                                                <img src="./assets/join.jpg" alt="tab1" class="img img-responsive">
+                                                <img src="/Inscripciones/assets/join.jpg" alt="tab1" class="img img-responsive">
                                         </div>
                                         <div class="tab-pane " id="tab2">                                       
-                                                <img src="./assets/participate.jpg">                                          
+                                                <img src="/Inscripciones/assets/participate.jpg">                                          
                                         </div>
                                         <div class="tab-pane fade" id="tab3">
-                                                <img src="./assets/teach.jpg" alt="tab1" class="img img-responsive">
+                                                <img src="/Inscripciones/assets/teach.jpg" alt="tab1" class="img img-responsive">
                                         </div>
                                     </div>
                                 </div>
@@ -211,13 +214,50 @@
                 </div>
             </div>
         </div>
-        </section>
+    </section>
     </main>
     <div class="container-fluid divider mt-3 mb-3">
     </div>
+    <section class="get-in-touch container">
+        <h1 class="title ">Inscribir un alumno</h1>
+        <form class="contact-form row" id="inscripcion">
+           <div class="form-field col-lg-6">
+              <input id="name" class="input-text js-input" type="text" >
+              <label class="label" for="name">Nombre</label>
+           </div>
+           <div class="form-field col-lg-6 ">
+            <input id="surname" class="input-text js-input" type="text" >
+            <label class="label" for="company">Apellido</label>
+         </div>
+           <div class="form-field col-lg-6 ">
+              <input id="email" class="input-text js-input" type="email" >
+              <label class="label" for="email">Email</label>
+           </div>         
+            <div class="form-field col-lg-6 ">
+              <input id="phone" class="input-text js-input" type="number" >
+              <label class="label" for="phone">Numero de telefono</label>
+           </div>
+           <div class="form-field col-lg-6 ">
+           <select id="turno" name="turno" class="form-control input-text js-input label text-start" >
+            <option value="" selected disabled>Turno</option>
+            <option >Mañana</option>
+            <option >Tarde</option>
+            </select>
+            </div> 
+           <div class="form-field col-lg-12">
+              <input id="comment" class="input-text js-input" type="text" >
+              <label class="label" for="message">Message</label>
+           </div>
+           <div class="form-field col-lg-12">
+              <input class="submit-btn" type="submit" value="Enviar">
+           </div>
+        </form>
+     </section>
+     <div class="container-fluid divider mt-3 mb-3">
+    </div>
      <!--form-->
      <footer>   
-      <form action="">
+      <form action="" id="formulario">
           <div class="container contact">
               <div class="row">
                   <div class="col-md-3">
@@ -232,25 +272,25 @@
                           <div class="form-group">
                             <label class="control-label col-sm-2" for="fname">Nombre</label>
                             <div class="col-sm-10">          
-                              <input type="text" class="form-control" id="fname" placeholder="Ingrese su nombre" name="fname">
+                              <input type="text" class="form-control" id="fname" placeholder="Ingrese su nombre" name="fname" required>
                             </div>
                           </div>
                           <div class="form-group">
                             <label class="control-label col-sm-2" for="lname">Apellido</label>
                             <div class="col-sm-10">          
-                              <input type="text" class="form-control" id="lname" placeholder="Ingrese su apellido" name="lname">
+                              <input type="text" class="form-control" id="lname" placeholder="Ingrese su apellido" name="lname" required>
                             </div>
                           </div>
                           <div class="form-group">
                             <label class="control-label col-sm-2" for="email">Email:</label>
                             <div class="col-sm-10">
-                              <input type="email" class="form-control" id="email" placeholder="usuario@mail.com" name="email">
+                              <input type="email" class="form-control" id="email" placeholder="usuario@mail.com" name="email" required>
                             </div>
                           </div>
                           <div class="form-group">
                             <label class="control-label col-sm-2" for="comment">Comentarios</label>
                             <div class="col-sm-10">
-                              <textarea class="form-control" rows="5" id="comment"></textarea>
+                              <textarea class="form-control" rows="5" id="comment" required></textarea>
                             </div>
                           </div>
                           <div class="form-group">        
@@ -279,7 +319,7 @@
                                   <li>
                                   info@proyectogc.org
                                   </li>
-                                  <img class="bg-white m-2" src="/assets/logoGC_slogan.webp">
+                                  <img class="bg-white m-2" src="./assets/logoGC_slogan.webp">
                               </ul>
                           </div>
                       </div>

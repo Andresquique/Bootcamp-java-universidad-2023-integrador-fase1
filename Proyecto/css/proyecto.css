@@ -111,7 +111,7 @@ footer h2{
     opacity: 0.5;
 }
 #imagen{
-    background-image: url(/Proyecto/assets/proyecto_sm.png);
+    background-image: url(./Proyecto/assets/proyecto_sm.png);
     height: 400px;
     background-repeat: no-repeat;
     background-size: cover;
@@ -237,7 +237,7 @@ font-weight: 600;
 @media screen and (min-width:768px) {
 
     #imagen {
-        background-image: url(/Proyecto/assets/proyecto_md.png);
+        background-image: url(./Proyecto/assets/proyecto_md.png);
     }    
 
 
@@ -248,7 +248,7 @@ font-weight: 600;
 @media screen and (min-width:992px) {
 
     #imagen {
-        background-image: url(/Proyecto/assets/proyecto_lg.jpg);
+        background-image: url(./Proyecto/assets/proyecto_lg.jpg);
     }
 
 }

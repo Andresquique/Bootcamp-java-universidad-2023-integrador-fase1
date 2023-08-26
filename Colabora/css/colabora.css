@@ -106,7 +106,7 @@ footer h2{
 /*section/articles*/
 
 #imagen{
-    background-image: url(/Colabora/assets/colabora_sm.png);
+    background-image: url(./Colabora/assets/colabora_sm.png);
     height: 400px;
     background-repeat: no-repeat;
     background-size: cover;
@@ -372,7 +372,7 @@ input:focus{
 @media screen and (min-width:768px) {
 
     #imagen {
-        background-image: url(/Colabora/assets/colabora_md.png);
+        background-image: url(./Colabora/assets/colabora_md.png);
     }    
 
 }
@@ -382,7 +382,7 @@ input:focus{
 @media screen and (min-width:992px) {
 
     #imagen {
-        background-image: url(/Colabora/assets/colabora_lg.jpg);
+        background-image: url(./Colabora/assets/colabora_lg.jpg);
     }
 
 }
