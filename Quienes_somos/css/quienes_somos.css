@@ -111,7 +111,7 @@ footer h2{
     opacity: 0.5;
 }
 #imagen{
-    background-image: url(./Quienes_somos/assets/quienes_somos_sm.jpg);
+    background-image: url(/Quienes_somos/assets/quienes_somos_sm.jpg);
     height: 400px;
     background-repeat: no-repeat;
     background-size: cover;
@@ -281,7 +281,7 @@ h3{
 @media screen and (min-width:768px) {
 
     #imagen {
-        background-image: url(./Quienes_somos/assets/quienes_somos_md.jpg);
+        background-image: url(./assets/quienes_somos_md.jpg);
     }    
 }
 
@@ -290,6 +290,6 @@ h3{
 @media screen and (min-width:992px) {
 
     #imagen {
-        background-image: url(./Quienes_somos/assets/quienes_somos_lg.jpg);
+        background-image: url(../Quienes_somos/assets/quienes_somos_lg.jpg);
     }
 }
