@@ -197,6 +197,6 @@ footer h2{
 @media screen and (min-width:992px) {
 
     #imagen {
-        background-image: url(./Index/assets/home-lg.jpg);
+        background-image: url(/Index/assets/home-lg.jpg);
     }
 }
