@@ -9,25 +9,22 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
     <title>Inscripciones</title>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
-    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
-    <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
-    <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
-    <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
     <!--css-->
     <link rel="stylesheet" href="./css/Inscripciones.css">
      <!--js-->
-     <script src="/js/"></script>
      <script src="./js/inscripciones.js"></script>
+     <script src="../js/validation.js"></script>
+
 </head>
 <body>
     <!--nav-->
     <header>
         <nav class="navbar navbar-expand-lg">
             <div class="container-fluid p-2" id="menu">
-                <a href="/index.html"> 
+                <a href="../index.html"> 
                     <img id="logo" class="gc-navbar-brand me-3"
-                    src="/assets/logoGC.png" 
+                    src="../assets/logoGC.png" 
                     alt="ProyectoGC"/>
                 </a>
                 <a href="#" class=" me-auto "><i class="fa fa-instagram fa-3x text-black-50"></i></a>
@@ -37,7 +34,7 @@
                 <div class="collapse navbar-collapse" id="navbarColor02">
                     <ul class="navbar-nav ">
                     <li class="nav-item">
-                        <a class="nav-link" href="/Quienes_somos/quienes_somos.html">QUIENES SOMOS
+                        <a class="nav-link" href="../Quienes_somos/quienes_somos.html">QUIENES SOMOS
                         <span class="visually-hidden">(current)</span>
                         </a>
                     </li>
@@ -45,13 +42,13 @@
                         <a class="nav-link" href="../Proyecto/proyecto.html">PROYECTO</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="/Actividades/actividades.html">ACTIVIDADES</a>
+                        <a class="nav-link" href="../Actividades/actividades.html">ACTIVIDADES</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="/Colabora/colabora.html">COLABORAR</a>
+                        <a class="nav-link" href="../Colabora/colabora.html">COLABORAR</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="/Inscripciones/Inscripciones.html">INSCRIPCIONES</a>
+                        <a class="nav-link" href="./Inscripciones.html">INSCRIPCIONES</a>
                     </li>               
                     </ul>
                 </div>
@@ -70,7 +67,7 @@
         <article class="d-grid mt-5 mb-3">
             <div class="row justify-content-center ">
                 <div class="logoArticle d-grid col col-10 col-md-2 justify-content-center align-items-center">
-                <img src="/assets/gc.png" width="100" alt="logo">
+                <img src="../assets/gc.png" width="100" alt="logo">
                 </div>
                 <div class="col col-10 col-md-8 text-center" id="parrafo">
                 <h3>
@@ -95,7 +92,7 @@
             <ul class="row">
                 <li class="col-12 col-md-6 col-lg-3">
                     <div class="tarjeta" >
-                    <img src="/Inscripciones/assets/christopher.jpg" class="img-fluid object-fit-cover" alt="">
+                    <img src="./assets/christopher.jpg" class="img-fluid object-fit-cover" alt="">
                     <h3>Maria Sanchez</h3>
                     <p>Lider equipo educativo</p>
                     <ul class="follow-us ">
@@ -107,7 +104,7 @@
                 </li>
                 <li class="col-12 col-md-6 col-lg-3">
                     <div class="tarjeta" >
-                        <img src="/Inscripciones/assets/gonzalo.jpg" class="img-fluid object-fit-cover" alt="">
+                        <img src="./assets/gonzalo.jpg" class="img-fluid object-fit-cover" alt="">
                     <h3>Gonzalo Martinez</h3>
                     <p>Lider equipo psicologia</p>
                     <ul class="follow-us">
@@ -119,7 +116,7 @@
                 </li>
                 <li class="col-12 col-md-6 col-lg-3">
                     <div class="tarjeta" >
-                        <img src="/Inscripciones/assets/helena.jpg" class="img-fluid object-fit-cover" alt="">
+                        <img src="./assets/helena.jpg" class="img-fluid object-fit-cover" alt="">
                     <h3>Helena Gimenez</h3>
                     <p>Lider equipo RRHH</p>
                     <ul class="follow-us">
@@ -131,7 +128,7 @@
                 </li>
                 <li class="col-12 col-md-6 col-lg-3">
                     <div class="tarjeta" >
-                        <img src="/Inscripciones/assets/javier.jpg" class="img-fluid object-fit-cover" alt="">
+                        <img src="./assets/javier.jpg" class="img-fluid object-fit-cover" alt="">
                     <h3>Javier Muñoz</h3>
                     <p>Lider equipo salud</p>
                     <ul class="follow-us">
@@ -146,75 +143,6 @@
         <div class="container-fluid divider mt-3 mb-3">
         </div>
          <!-- inscripciones -->
-        <section class="container d-flex p-4 mt-5">
-          <div class="container">
-            <div class="row">
-                <div class="col-md-4">
-                    <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
-                        <div class="panel panel-default">
-                            <span class="side-tab" data-target="#tab1" data-toggle="tab" role="tab" aria-expanded="false">
-                                <div class="panel-heading" role="tab" id="headingOne"data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                                    <h4 class="panel-title">Unite</h4>
-                                </div>
-                            </span>
-                            <div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
-                                <div class="panel-body">
-                                ¡Únete a nuestro apasionado equipo educativo en la ONG de Educación para Niños! Si tienes el deseo de marcar la diferencia en la vida de los más jóvenes y contribuir a su crecimiento académico y personal, te invitamos a inscribirte como docente con nosotros.
-                                </div>
-                            </div>
-                        </div> 
-                        <div class="panel panel-default">
-                            <span class="side-tab" data-target="#tab2" data-toggle="tab" role="tab" aria-expanded="false">
-                                <div class="panel-heading" role="tab" id="headingTwo" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                                    <h4 class="panel-title collapsed">Participa</h4>
-                                </div>
-                            </span>
-                            <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
-                                <div class="panel-body">
-                                Si eres un individuo comprometido, creativo y lleno de energía, y deseas formar parte de una comunidad dedicada a brindar oportunidades educativas significativas, esperamos contar contigo. Tu pasión y tu compromiso serán las herramientas que necesitamos para empoderar a estos niños a alcanzar su máximo potencial.
-                                </div>
-                            </div>
-                        </div>
-                        <div class="panel panel-default">
-                            <span class="side-tab" data-target="#tab3" data-toggle="tab" role="tab" aria-expanded="false">
-                                <div class="panel-heading" role="tab" id="headingThree"  class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                                    <h4 class="panel-title">Enseña</h4>
-                                </div>
-                            </span>
-                                <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
-                                  <div class="panel-body">
-                                  Nuestra organización se dedica a proporcionar educación de calidad a niños que enfrentan desafíos diversos. Como docente en nuestra ONG, tendrás la oportunidad de compartir tus conocimientos, inspirar el amor por el aprendizaje y ayudar a construir un futuro brillante para estos niños.
-                                  </div>
-                                </div>
-                          </div>
-                    </div>                     
-                </div>
-                <div class="col-md-8">
-                    <div class="md-macbook-pro md-glare">
-                        <div class="md-lid">
-                            <div class="md-camera"></div>
-                            <div class="md-screen">             
-                                <div class="tab-featured-image">
-                                    <div class="tab-content">
-                                        <div class="tab-pane  in active" id="tab1">
-                                                <img src="/Inscripciones/assets/join.jpg" alt="tab1" class="img img-responsive">
-                                        </div>
-                                        <div class="tab-pane " id="tab2">                                       
-                                                <img src="/Inscripciones/assets/participate.jpg">                                          
-                                        </div>
-                                        <div class="tab-pane fade" id="tab3">
-                                                <img src="/Inscripciones/assets/teach.jpg" alt="tab1" class="img img-responsive">
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="md-base"></div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
     </main>
     <div class="container-fluid divider mt-3 mb-3">
     </div>
@@ -222,31 +150,31 @@
         <h1 class="title ">Inscribir un alumno</h1>
         <form class="contact-form row" id="inscripcion">
            <div class="form-field col-lg-6">
-              <input id="name" class="input-text js-input" type="text" >
-              <label class="label" for="name">Nombre</label>
+              <input id="name" class="input-text js-input" type="text" placeholder="Nombre" required >
+              <label class="label m-3" for="name">Nombre</label>
            </div>
            <div class="form-field col-lg-6 ">
-            <input id="surname" class="input-text js-input" type="text" >
-            <label class="label" for="company">Apellido</label>
+            <input id="surname" class="input-text js-input" type="text" placeholder="Apellido" required>
+            <label class="label m-3" for="surname">Apellido</label>
          </div>
            <div class="form-field col-lg-6 ">
-              <input id="email" class="input-text js-input" type="email" >
-              <label class="label" for="email">Email</label>
+              <input id="email" class="input-text js-input" type="email" placeholder="usuario@mail.com" required >
+              <label class="label m-3" for="email">Email</label>
            </div>         
             <div class="form-field col-lg-6 ">
-              <input id="phone" class="input-text js-input" type="number" >
-              <label class="label" for="phone">Numero de telefono</label>
+              <input id="phone" class="input-text js-input" type="number" placeholder="15 **** ****" required>
+              <label class="label m-3" for="phone">Numero de telefono</label>
            </div>
-           <div class="form-field col-lg-6 ">
+           <div class="form-field col-lg-6 p-3">
            <select id="turno" name="turno" class="form-control input-text js-input label text-start" >
-            <option value="" selected disabled>Turno</option>
+            <option value="" selected disabled>Elija turno</option>
             <option >Mañana</option>
             <option >Tarde</option>
             </select>
             </div> 
            <div class="form-field col-lg-12">
-              <input id="comment" class="input-text js-input" type="text" >
-              <label class="label" for="message">Message</label>
+              <input id="comment" class="input-text js-input" type="text" required >
+              <label class="label m-3" for="comment">Message</label>
            </div>
            <div class="form-field col-lg-12">
               <input class="submit-btn" type="submit" value="Enviar">
@@ -319,7 +247,7 @@
                                   <li>
                                   info@proyectogc.org
                                   </li>
-                                  <img class="bg-white m-2" src="./assets/logoGC_slogan.webp">
+                                  <img class="bg-white m-2" src="../assets/logoGC_slogan.webp">
                               </ul>
                           </div>
                       </div>

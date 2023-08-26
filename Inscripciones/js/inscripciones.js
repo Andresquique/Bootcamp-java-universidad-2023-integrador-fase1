@@ -1,6 +1,6 @@
 
 
-function validarFormulario(evento) {
+function validarInscripcion(evento) {
     evento.preventDefault();
 
     let nombre = document.getElementById('name').value;
@@ -60,12 +60,18 @@ function validarFormulario(evento) {
           alert('Exceso de caracteres, maximo 20');
           return;
         }
-  
+
+    let turno = document.getElementById('turno').value;
+    if (turno == "") {
+        alert('Debe elegir un turno');
+        return;
+      }
+    
 
 
     this.submit();
   }
 
   document.addEventListener("DOMContentLoaded", function() {
-    document.getElementById("inscripcion").addEventListener('submit', validarFormulario); 
+    document.getElementById("inscripcion").addEventListener('submit', validarInscripcion); 
   });

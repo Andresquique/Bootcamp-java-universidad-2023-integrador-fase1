@@ -34,7 +34,7 @@ function validarFormulario(evento) {
 
     let mail = document.getElementById('email').value;
     if (mail === "") {
-        alert("No has escrito nada en el mail");
+        alert("Ingrese un mail valido");
         return;
     } 
     else if (!/^[a-zA-Z0-9._-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,4}$/.test(mail)) {
@@ -51,6 +51,7 @@ function validarFormulario(evento) {
         alert('Exceso de caracteres, maximo 200');
         return;
       }
+
 
     this.submit();
   }
