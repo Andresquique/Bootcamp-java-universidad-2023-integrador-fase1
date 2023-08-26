@@ -1,0 +1,295 @@
+:root{
+    font-size: 16px;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    --orange:#BA431A;
+    --light_orange:#F08F6D;
+    --grey:#AEA79F;
+
+}
+/*nav*/
+body{
+    font-family: 'Signika Negative', sans-serif !important;
+}
+#menu {
+    background:var(--light_orange);
+    background: radial-gradient(circle, var(--light_orange) 0%, rgba(250,250,250,0.41220238095238093) 100%);
+   
+}   
+#logo {
+    width: 50px;
+}
+
+.nav-link:hover{
+    text-decoration: underline;
+
+}
+.nav-link{
+    font-size: 1.2rem;
+}
+
+/*form*/
+.contact{
+    padding: 4%;
+    height: 400px;
+}
+.col-md-3{
+    background: var(--light_orange);
+    padding: 4%;
+    border-top-left-radius: 0.5rem;
+    border-bottom-left-radius: 0.5rem;
+}
+.contact-info{
+    margin-top:10%;
+
+}
+.contact-info img{
+    margin-bottom: 15%;
+}
+.contact-info h2{
+    margin-bottom: 10%;
+}
+.col-md-9{
+    background: #fff;
+    padding: 3%;
+    border-top-right-radius: 0.5rem;
+    border-bottom-right-radius: 0.5rem;
+}
+.contact-form label{
+    font-weight:600;
+
+}
+.contact-form button{
+    background:var(--light_orange);
+    color: #fff;
+    font-weight: 600;
+    width: 25%;
+
+}
+.contact-form button:focus{
+    box-shadow:none;
+}
+input:focus , textarea:focus{
+    border: none;
+  border-bottom: 2px solid var(--light_orange) !important;
+  border-top: 2px solid var(--light_orange) !important;
+  background-color:var(--grey)!important; 
+}
+#contactInfo{
+    background-color: var(--grey);
+    font-weight: 400;
+    border-radius: 10px;
+}
+footer{
+    animation: bottom_entrance 3s ease 0s 1 normal forwards;
+}
+footer h2{
+    font-size: 1.6rem;
+    font-weight: 600;
+}
+.form-group{
+    text-align: start;
+}
+@keyframes bottom_entrance {
+	0% {
+		opacity: 0;
+		transform: translateY(200px);
+	}
+
+	100% {
+		opacity: 1;
+		transform: translateY(0);
+	}
+}
+
+/*section/articles*/
+
+.divider{
+    background: radial-gradient( var(--light_orange) 0%, #fff 100%);
+    height: 100px;
+    opacity: 0.5;
+}
+#imagen{
+    background-image: url(./Quienes_somos/assets/quienes_somos_sm.jpg);
+    height: 400px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+}
+#imagen h2 {
+    color:var(--orange);
+    font-weight: 800;
+    font-size: 2.5rem;
+    text-shadow: 0px 5px 5px white;
+   
+
+}
+#mision {   
+    background-color: var(--orange) ;
+    color:white;
+    border-radius: 10px;
+}
+#textoImg{
+    animation: pop 1s ease 0s 1 normal forwards; 
+}
+
+h3{
+    font-size: 2.5rem;
+    background-color: var(--orange) ;
+    color:white;
+    border-radius: 10px;
+}
+#logoArticle{
+    animation: slide 1s ease 0s 1 normal forwards;
+}
+
+.logos {
+    background-image: url(/assets/gc.png);
+    width: 100%;
+}
+#valores {
+    font-size: 15px;
+    line-height: 1.6em;
+    text-align: center;
+  }
+  
+  .content {
+    max-width: 600px;
+    margin: 25vh auto;
+  }
+  
+  .testimonial blockquote {
+    margin: 10px 10px 0;
+    background:var(--grey);
+    padding: 20px 60px;
+    position: relative;
+    border: none;
+    border-radius: 8px;
+    font-style: italic;
+  }
+  
+  .testimonial blockquote:before,
+  .testimonial blockquote:after {
+    content: "\201C";
+    position: absolute;
+    font-size: 80px;
+    line-height: 1;
+    color: var(--orange);
+    font-style: normal;
+  }
+  
+  .testimonial blockquote:before {
+    top: 0;
+    left: 10px;
+  }
+  
+  .testimonial blockquote:after {
+    content: "\201D";
+    right: 10px;
+    bottom: -0.5em;
+  }
+  
+  .testimonial div {
+    width: 0;
+    height: 0;
+    border-left: 0 solid transparent;
+    border-right: 20px solid transparent;
+    border-top: 20px solid var(--grey);
+    margin: 0 0 0 60px;
+  }
+  
+  .testimonial h4 {
+    margin: 8px 0 0 20px;
+    text-align: center;
+    color: var(--light_orange);
+    font-size: 2rem;
+    font-weight: 600;
+    animation: deslizar 1s linear 0s 1 normal forwards;
+  }
+  
+/*animaciones*/
+
+@keyframes pop {
+	0% {
+		transform: scale(0);
+	}
+
+	100% {
+		transform: scale(1);
+	}
+}
+
+@keyframes slide {
+	0% {
+		transform: scaleX(0);
+		transform-origin: 100% 100%;
+	}
+
+	100% {
+		transform: scaleX(1);
+		transform-origin: 100% 100%;
+	}
+}
+
+@keyframes deslizar {
+	0% {
+		animation-timing-function: ease-in;
+		opacity: 0;
+		transform: translateX(250px);
+	}
+
+	38% {
+		animation-timing-function: ease-out;
+		opacity: 1;
+		transform: translateX(0);
+	}
+
+	55% {
+		animation-timing-function: ease-in;
+		transform: translateX(65px);
+	}
+
+	72% {
+		animation-timing-function: ease-out;
+		transform: translateX(0);
+	}
+
+	81% {
+		animation-timing-function: ease-in;
+		transform: translateX(28px);
+	}
+
+	90% {
+		animation-timing-function: ease-out;
+		transform: translateX(0);
+	}
+
+	95% {
+		animation-timing-function: ease-in;
+		transform: translateX(8px);
+	}
+
+	100% {
+		animation-timing-function: ease-out;
+		transform: translateX(0);
+	}
+}
+/*responsive min-width:768px*/
+
+@media screen and (min-width:768px) {
+
+    #imagen {
+        background-image: url(./Quienes_somos/assets/quienes_somos_md.jpg);
+    }    
+}
+
+/*responsive min-width:992px*/
+
+@media screen and (min-width:992px) {
+
+    #imagen {
+        background-image: url(./Quienes_somos/assets/quienes_somos_lg.jpg);
+    }
+}
