@@ -52,12 +52,8 @@ function validarInscripcion(evento) {
       }
 
     let numero = document.getElementById('phone').value;
-     if (numero.length === 0) {
-         alert('No has escrito nada en telefono');
-        return;
-      }
-      else if(numero.length > 200) {
-          alert('Exceso de caracteres, maximo 20');
+       if(numero.length != 10) {
+          alert('Deben ser 10 numeros');
           return;
         }
 
