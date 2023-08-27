@@ -145,10 +145,7 @@ h3{
     animation: slide 1s ease 0s 1 normal forwards;
 }
 
-.logos {
-    background-image: url(../../Quienes_somos/assets/quienes_somos_sm.jpg);
-    width: 100%;
-}
+
 #valores {
     font-size: 15px;
     line-height: 1.6em;
@@ -169,7 +166,6 @@ h3{
     border-radius: 8px;
     font-style: italic;
   }
-  
   .testimonial blockquote:before,
   .testimonial blockquote:after {
     content: "\201C";
